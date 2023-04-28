@@ -1,0 +1,134 @@
+
+/* Todos los elementos de la página*/
+
+    *{
+        box-sizing: border-box; /* Se ajusta todo a la pantalla*/
+        margin-left: 15px;
+        margin-right: 15px;
+        
+    }
+
+    
+body {
+
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;    
+    font-family: verdana,Arial, Helvetica, sans-serif; 
+    background-color: rgb(250, 250, 250);
+    color: hsl(180, 100%, 1%);
+    font: 80%/160% "arial", sans-serif;
+    
+
+}
+
+
+header{
+  
+    font-size: 1rem;  /* especifica la dimensión de la letra.*/
+    background-color: lightcoral;
+    display: flex; /* Define el tipo de caja usado para presentar el elemento en pantalla.*/
+    flex-direction: column; /*Especifica cómo colocar los objetos flexibles en el contenedor flexible definiendo el eje principal y la dirección */
+    /* justify-content: center;/* define cómo el navegador distribuye el espacio entre y alrededor de los items flex*/
+    align-items: center;    /* alinea un elemento dentro del bloque que lo contiene*/
+    width: 40%; /* ancho de un elemento*/
+    border-radius: 20px; 
+    clear: both;/*  Restaura el flujo normal del documento, y no per- mite que el elemento siga flotando hacia la izquierda, la derecha o am- bos lados.*/
+    
+}
+
+h1{
+    width: 100%;
+    display: flex; /* Define el tipo de caja usado para presentar el elemento en pantalla.*/
+    justify-content: center;/* define cómo el navegador distribuye el espacio entre y alrededor de los items flex*/ 
+}
+
+
+  #Formulario h2{
+    background-color: lightcoral;
+    width: 50%;
+    display: flex; /* Define el tipo de caja usado para presentar el elemento en pantalla.*/
+    justify-content: center;
+    align-items: center; 
+    border-radius: 20px; 
+}
+ #Direccion{
+    font-size: 1rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+ul, ul li { 
+    margin: 10; 
+    padding: 10; /*márgenes interiores*/
+    
+}
+
+p{
+    font-size: 15px;
+}
+
+#datosp{
+    float: right;
+    background-color: lightseagreen;
+    margin: 10;
+    padding: 10px;;
+    border: 1ex dashed grey;
+    width: 40%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    clear: both;
+    
+}
+
+img {
+    float: right;
+    margin: 16px;
+    border: none; 
+}
+
+
+#conocimientos {
+   margin: 0;
+    border: 1px solid #CCC;
+    background-color: #ffffff;
+    padding: .5em;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+
+table {
+    font-size: 16px;
+    font: .9em Arial, Helvetica, sans-serif;
+    border: 1px solid #333;
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 0 .3em;
+    line-height: 32px; /* alto de la fila */
+}
+
+
+table th, table, td {
+    border: 1px solid #333;
+}
+
+
+form{
+    width: 100%;
+
+}
+
+

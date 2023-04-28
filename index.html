@@ -1,0 +1,130 @@
+<!-- Tipo de documento que está cargando el browser -->
+<!DOCTYPE html>
+
+<!-- Etiqueta principal -->
+<html>
+
+<!-- Información general para el browser -->
+<head>
+
+    <!-- Determina la forma en la que se van a mostrar los caracteres especiales (acentos, caracteres japones, etc.) -->
+    <meta charset="utf-8" />
+    
+    <!-- Descripción de la página -->
+    <meta name="description" content="Curriculum Vitae Karen Romero"/>
+    
+    <!-- Palabras claves -->
+    <meta name="keywords" content="ap2023, HTML, programación" />
+    
+    <!-- Autor de la página -->
+    <meta name="author" content="Karen Ayelen Romero" />
+
+    <!-- Título de la Web, (pestaña) -->
+    <title>Trabajo Practico PWEB1</title>
+
+    <!-- Para enlazar CSS externo -->
+    <link rel="stylesheet" href="CVKarenRomero.css">
+
+
+</head>
+
+<!-- Contenido que se mostrará -->
+   
+<body>
+     <!-- Cabecera y titulo principal -->
+    <header>
+    <h1>Karen Ayelen Romero</h1>
+    </header>
+   
+     <!-- Contenido -->
+        <section id="datosp">  
+            <!-- Divisiones -->   
+          <div  id="datos">
+               <!-- Se inserta una imagen -->
+            <img src="imagen karen.jpeg" alt="Karen" width="110" height="110" style="border-radius: 30px" />
+               <!-- Se inserta un encabezado -->
+             <h2>Datos Personales:</h2>
+                 
+                <!-- Se inserta parrafos con salto de linea -->
+                <p>Domicilio: Holanda 222
+                <br>Partido: Ituzaingo
+                <br>Telefono:1188229900
+                <br>Estado Civil: Soltera
+                <br>Nacionalidad: Argentina
+                <br>Fecha de Nacimiento:23.08.1997
+                <br>DNI: 57574739
+                <br>E-mail: karen._romero@hotmail.com</p>
+                
+           </div>
+           
+        <div  id="Formacion">
+         <h2>Formacion academica:</h2>
+            <p>Universidad Nacional del Oeste, Merlo Bs. As.
+            <br>Licenciatura en Informatica(2do ano en curso)
+            <br>Secundario: Bachiller en Economia y gestion</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Conocimientos:</h2>
+        <div  id="conocimientos">
+             <!-- Se inserta una lista -->
+            <ul>
+                <li>Java, Visual Basic, Lenguaje C, SQL, Herramientas Office </li>
+                <li>Nivel de Ingles: Basico</li>
+            </ul>
+        </div>
+    
+    </section>
+
+ <!-- Se inserta una tabla -->
+<table summary="experiencia">
+    <!-- Título de la tabla -->
+    <caption> <strong>Experiencia Laboral</strong></caption>
+
+    <!-- Para filas -->
+    <tr>
+        <!-- Para fila de encabezados -->
+        <th>Empresa</th>
+        <th>Antiguedad</th>
+        <th>Experiencia</th>
+        <th>Proyectos</th>
+    </tr>
+    <tr>
+        <!-- Para contenido de una celda -->
+        <td>Deloitte</td>
+        <td>(09.03.2019 al presente)</td>
+        <td>SAP ABAP Integraciones PI/PO/CPI </td>
+        <td>Implementacion/soporte/auditoria </td>
+    </tr>
+<table>
+
+
+    <div> 
+        <h2>Dirección Deloitte:</h2>
+          <!-- Se inserta un mapa -->  
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.953536892588!2d-58.37983852372693!3d-34.605336397791774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacd863f0ef9%3A0x92f9d96ee7258012!2sFlorida%20234%2C%20C1005%20San%20Nicolas%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1sen!2sus!4v1682393279002!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   <!-- Se inserta un formulario-->
+   <div id="Formulario">
+   <h2>¿Te intereso mi experiencia laboral?</h2>
+    <p>A través de este formulario podes dejarme tus datos y te contacto a la brevedad!</p>
+     <form action="../../form-result.php" target="_blank">
+       <fieldset>
+           <legend>Contacto</legend>
+           <p><label>Tu nombre: <input type="text" name="nombre"/></label></p>
+           <p><label>Tu dirección de correo: <input type="text" name="correo" /></label></p>
+           <p><label>Tu celular:  <input type="tel" name="telefono" placeholder="(Código de área) Número" /> </label></p>
+           <p><label>Tu Mensaje:<br><textarea name="mensaje"></textarea></label></p>
+       </fieldset>
+       <div> 
+         <!-- Pie de pagina -->
+         <footer> 
+             <div id="pie">
+            <p id="copyright">&copy; 2023 ProgWeb1 TP1</p>
+        </div> 
+        </footer>
+
+</body>
+
+</html>
